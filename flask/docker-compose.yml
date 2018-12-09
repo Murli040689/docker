@@ -4,7 +4,6 @@ services:
     build: www/.
     ports:
       - "80:80"
-      - "5000:5000"
     links:
       - db
     depends_on:
